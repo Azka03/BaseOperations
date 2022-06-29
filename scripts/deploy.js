@@ -1,4 +1,6 @@
 const hre = require("hardhat");
+const ethers = hre.ethers;
+
 
 async function main() {
   // We get the contract to deploy
@@ -7,10 +9,10 @@ async function main() {
 
   await mathextended.deployed();
 
-  await hre.run("verify:verify", {
-    address: mathextended.address,
-    constructorArguments: [],
-  });
+  // await hre.run("verify:verify", {
+  //   address: mathextended.address,
+  //   constructorArguments: [],
+  // });
 
   console.log("Contract deployed to:", mathextended.address);
 }

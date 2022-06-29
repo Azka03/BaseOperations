@@ -2,7 +2,6 @@ const { expect } = require("chai");
 const { ethers } = require("hardhat");
 const chai = require("chai");
 const hre = require("hardhat");
-const {BigNumber} = hre.ethers;
 
 describe("MathExtended", async function () {
 
