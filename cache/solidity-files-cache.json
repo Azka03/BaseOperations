@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/ideofuzion/Blockchain/Task1-BasicOperations/contracts/MathExtended.sol": {
+      "lastModificationDate": 1656490103694,
+      "contentHash": "93b1c9aa32478b61b05845c65ca1960b",
+      "sourceName": "contracts/MathExtended.sol",
+      "solcConfig": {
+        "version": "0.8.15",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.15"
+      ],
+      "artifacts": [
+        "MathExtended",
+        "iMathExtended"
+      ]
+    }
+  }
+}
